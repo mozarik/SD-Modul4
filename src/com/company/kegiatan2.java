@@ -44,7 +44,7 @@ public class kegiatan2 {
             System.exit(1);
         }
 
-        System.out.println("Antrean nomor " + item " Di ambil");
+        System.out.println("Antrean nomor " + item +" Di ambil");
 
         rear = (rear + 1) % capacity;
         arr[rear] = item;
