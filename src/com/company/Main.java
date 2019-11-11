@@ -37,7 +37,7 @@ class Stack {
 
 public class Main {
     public static void main(String[] args) {
-        String input = "JANCOK";
+        String input = "keep";
         int stackSize = input.length();
         Stack stack = new Stack(stackSize);
 

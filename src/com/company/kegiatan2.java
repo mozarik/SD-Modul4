@@ -30,7 +30,7 @@ public class kegiatan2 {
             System.exit(1);
         }
 
-        System.out.println("Removing " + arr[front]);
+        System.out.println("Antrean ke " + arr[front] + " sudah selesai");
 
         front = (front + 1) % capacity;
         count--;
@@ -44,7 +44,7 @@ public class kegiatan2 {
             System.exit(1);
         }
 
-        System.out.println("Inserting " + item);
+        System.out.println("Antrean nomor " + item " Di ambil");
 
         rear = (rear + 1) % capacity;
         arr[rear] = item;
@@ -78,8 +78,7 @@ public class kegiatan2 {
     // Queue implementation in java
     public static void main(String[] args) {
         // create a queue of capacity 5
-        kegiatan2 q = new kegiatan2(5) {
-        };
+        kegiatan2 q = new kegiatan2(5) {};
 
         q.enqueue(1);
         q.enqueue(2);
